@@ -205,3 +205,45 @@ body, .gradio-container {
     border-bottom: 1px solid #ccc;
     margin: 12px 0;
 }
+
+.queue-settings-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 0 8px;
+    }
+    
+.setting-pill {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+.setting-pill-label {
+    background: var(--block-background-fill, #f8f9fa);
+    color: var(--body-text-color, #495057);
+    padding: 4px 8px;
+    font-weight: 500;
+    white-space: nowrap;
+    }
+    
+.setting-pill-value {
+    background: var(--input-background-fill, #ffffff);
+    color: var(--body-text-color, #1f2937);
+    padding: 4px 8px;
+    border-left: 1px solid var(--border-color-primary, #dee2e6);
+    }
+    
+/* Right side - single clickable preview */
+.queue-media-section {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    }
+    
